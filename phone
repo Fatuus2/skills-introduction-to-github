@@ -1,0 +1,14 @@
+# single phone number
+telegram-phone-number-checker --phone-numbers +79645999614
+
+# single phone number, download profile photo
+telegram-phone-number-checker --phone-numbers +79645999614 --download-profile-photos
+
+# multiple phone numbers
+telegram-phone-number-checker --phone-numbers +79645999614
+
+# interactive version, you will be prompted for the phone-numbers
+telegram-phone-number-checker
+
+# overwrite the telegram API keys in .env (or if no .env is found)
+telegram-phone-number-checker --api-id YOUR_API_KEY --api-hash YOUR_API_HASH --api-phone-number YOUR_PHONE_NUMBER --phone-numbers +79645999614
